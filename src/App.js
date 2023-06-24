@@ -123,11 +123,8 @@ class App extends React.Component {
 
   //Break start
   break() {
-    const breakMinutes = this.state.breakLength + 1 < 10 ? "0" + this.state.breakLength : this.state.breakLength;
     this.setState({
       session: "Break",
-      //sessionMinutes: breakMinutes,
-      //sessionSeconds: "00",
       timerIsOn: true,
       timerInBreak: true,
     })
@@ -137,7 +134,6 @@ class App extends React.Component {
 
   //Session restart after break end
   afterBreak() {
-    const sessionMinutes = this.state.sessionLength + 1 < 10 ? "0" + this.state.sessionLength : this.state.sessionLength;
     this.setState({
       session: "Session",
       timerIsOn: true,
