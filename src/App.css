@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  min-height: 600px;
+  border-radius: 16px;
+  border-radius: 26px;
+  background: blue;
+  box-shadow: 5px 5px 10px darkblue, -5px -5px 10px darkblue;
+}
+
+#container {
+  color: skyblue;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  color: skyblue;
+}
+
+#timer-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: skyblue;
+  width: 350px;
+  height: 300px;
+  border-radius: 10%;
+  background: blue;
+  box-shadow: 5px 5px 9px darkblue, -5px -5px 9px darkblue;
+}
+
+#break-label {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#break {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30px;
+  font-weight: 600;
+  align-items: center;
+}
+
+#session-label {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+#session {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30px;
+  align-items: center;
+  font-weight: 600;
+}
+
+#time-left {
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#start_stop {
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 30%;
+  color: skyblue;
+  background-color: blue;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#reset {
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 30%;
+  background-color: blue;
+  color: skyblue;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#break-increment #break-decrement #session-increment #session-decrement {
+  cursor: pointer;
+}
+
+#title {
+  margin: 10px;
+  min-width: 85%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  font-size: 1.5rem;
+}
