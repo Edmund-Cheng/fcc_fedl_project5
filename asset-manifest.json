@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fcc_fedl_project5/static/css/main.ecafb02b.css",
+    "main.js": "/fcc_fedl_project5/static/js/main.cba9e4ba.js",
+    "static/js/787.5e517a2a.chunk.js": "/fcc_fedl_project5/static/js/787.5e517a2a.chunk.js",
+    "static/media/beep-01a.mp3": "/fcc_fedl_project5/static/media/beep-01a.40e5c7db2b65c3a9b088.mp3",
+    "index.html": "/fcc_fedl_project5/index.html",
+    "main.ecafb02b.css.map": "/fcc_fedl_project5/static/css/main.ecafb02b.css.map",
+    "main.cba9e4ba.js.map": "/fcc_fedl_project5/static/js/main.cba9e4ba.js.map",
+    "787.5e517a2a.chunk.js.map": "/fcc_fedl_project5/static/js/787.5e517a2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecafb02b.css",
+    "static/js/main.cba9e4ba.js"
+  ]
+}
